@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "id": "foraging",
+      "name": "Foraging",
+      "icon": "🌿",
+      "description": "Gather plant-based resources from the wild",
+      "maxLevel": 100,
+      "xpCurve": "linear",
+      "baseXpPerLevel": 50,
+      "unlocksResources": ["berries", "sticks", "plant_fibers", "seeds", "herbs", "flowers", "mushrooms", "rare_plants", "ancient_seeds", "magical_herbs"]
+    },
+    {
+      "id": "mining",
+      "name": "Mining",
+      "icon": "⛏️",
+      "description": "Extract ores, stones, and crystals from the earth",
+      "maxLevel": 100,
+      "xpCurve": "linear",
+      "baseXpPerLevel": 50,
+      "unlocksResources": ["stone", "coal", "copper_ore", "iron_ore", "crystals", "silver_ore", "gold_ore", "gemstones", "mythril"]
+    },
+    {
+      "id": "crafting",
+      "name": "Crafting",
+      "icon": "🔨",
+      "description": "Create tools, equipment, and advanced items",
+      "maxLevel": 100,
+      "xpCurve": "linear",
+      "baseXpPerLevel": 50,
+      "unlocksResources": ["rope", "bandage", "stone_wall", "copper_pickaxe", "iron_sword", "herb_extract", "iron_pickaxe", "crystal_amulet", "crystal_pickaxe", "golden_compass", "elixir_of_mastery", "artisans_compass"]
+    }
+  ]
+}

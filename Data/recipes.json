@@ -1,0 +1,241 @@
+{
+  "recipes": [
+    {
+      "id": "berry_potion",
+      "name": "Berry Potion",
+      "description": "Restores 20 HP",
+      "icon": "🍷",
+      "category": "consumable",
+      "skill": "foraging",
+      "skillLevel": 5,
+      "craftTime": 2000,
+      "ingredients": [
+        { "resourceId": "berries", "amount": 5 }
+      ],
+      "output": { "resourceId": "berry_potion", "amount": 1 },
+      "xpReward": 10
+    },
+    {
+      "id": "fiber_rope",
+      "name": "Fiber Rope",
+      "description": "Basic crafting component",
+      "icon": "🪢",
+      "category": "material",
+      "skill": "crafting",
+      "skillLevel": 3,
+      "craftTime": 3000,
+      "ingredients": [
+        { "resourceId": "plant_fibers", "amount": 10 }
+      ],
+      "output": { "resourceId": "rope", "amount": 1 },
+      "xpReward": 15
+    },
+    {
+      "id": "stone_wall",
+      "name": "Stone Wall",
+      "description": "Basic building block",
+      "icon": "🧱",
+      "category": "building",
+      "skill": "crafting",
+      "skillLevel": 5,
+      "craftTime": 4000,
+      "ingredients": [
+        { "resourceId": "stone", "amount": 10 }
+      ],
+      "output": { "resourceId": "stone_wall", "amount": 1 },
+      "xpReward": 20
+    },
+    {
+      "id": "copper_pickaxe",
+      "name": "Copper Pickaxe",
+      "description": "Basic mining tool (+10% mining speed)",
+      "icon": "⛏️",
+      "category": "tool",
+      "skill": "crafting",
+      "skillLevel": 10,
+      "craftTime": 5000,
+      "ingredients": [
+        { "resourceId": "copper_ore", "amount": 8 },
+        { "resourceId": "sticks", "amount": 3 },
+        { "resourceId": "rope", "amount": 1 }
+      ],
+      "output": { "resourceId": "copper_pickaxe", "amount": 1 },
+      "xpReward": 25,
+      "effects": {
+        "miningSpeed": 0.1
+      }
+    },
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "description": "Reliable weapon (+5 damage)",
+      "icon": "🗡️",
+      "category": "weapon",
+      "skill": "crafting",
+      "skillLevel": 40,
+      "craftTime": 8000,
+      "ingredients": [
+        { "resourceId": "iron_ore", "amount": 10 },
+        { "resourceId": "coal", "amount": 5 },
+        { "resourceId": "leather", "amount": 3 }
+      ],
+      "output": { "resourceId": "iron_sword", "amount": 1 },
+      "xpReward": 50,
+      "effects": {
+        "damage": 5
+      }
+    },
+    {
+      "id": "herb_extract",
+      "name": "Herb Extract",
+      "description": "Powerful healing item (restores 50 HP)",
+      "icon": "🧪",
+      "category": "consumable",
+      "skill": "foraging",
+      "skillLevel": 45,
+      "craftTime": 6000,
+      "ingredients": [
+        { "resourceId": "herbs", "amount": 8 },
+        { "resourceId": "flowers", "amount": 4 },
+        { "resourceId": "water_flask", "amount": 1 }
+      ],
+      "output": { "resourceId": "herb_extract", "amount": 1 },
+      "xpReward": 40
+    },
+    {
+      "id": "iron_pickaxe",
+      "name": "Iron Pickaxe",
+      "description": "Advanced mining tool (+20% mining speed)",
+      "icon": "⛏️",
+      "category": "tool",
+      "skill": "crafting",
+      "skillLevel": 50,
+      "craftTime": 10000,
+      "ingredients": [
+        { "resourceId": "iron_ore", "amount": 12 },
+        { "resourceId": "copper_ore", "amount": 5 },
+        { "resourceId": "leather", "amount": 4 }
+      ],
+      "output": { "resourceId": "iron_pickaxe", "amount": 1 },
+      "xpReward": 60,
+      "effects": {
+        "miningSpeed": 0.2
+      }
+    },
+    {
+      "id": "crystal_amulet",
+      "name": "Crystal Amulet",
+      "description": "Magical accessory (+5% XP gain)",
+      "icon": "📿",
+      "category": "accessory",
+      "skill": "crafting",
+      "skillLevel": 55,
+      "craftTime": 12000,
+      "ingredients": [
+        { "resourceId": "crystals", "amount": 10 },
+        { "resourceId": "silver_ore", "amount": 8 },
+        { "resourceId": "rare_plants", "amount": 5 }
+      ],
+      "output": { "resourceId": "crystal_amulet", "amount": 1 },
+      "xpReward": 70,
+      "effects": {
+        "xpBonus": 0.05
+      }
+    },
+    {
+      "id": "crystal_pickaxe",
+      "name": "Crystal Pickaxe",
+      "description": "Masterwork mining tool (+25% mining speed, +10% rare drop chance)",
+      "icon": "⛏️",
+      "category": "tool",
+      "skill": "crafting",
+      "skillLevel": 75,
+      "craftTime": 12000,
+      "ingredients": [
+        { "resourceId": "crystals", "amount": 15 },
+        { "resourceId": "gold_ore", "amount": 10 },
+        { "resourceId": "iron_ore", "amount": 20 },
+        { "resourceId": "hardened_leather", "amount": 5 }
+      ],
+      "output": { "resourceId": "crystal_pickaxe", "amount": 1 },
+      "xpReward": 100,
+      "effects": {
+        "miningSpeed": 0.25,
+        "rareDropChance": 0.1
+      }
+    },
+    {
+      "id": "golden_compass",
+      "name": "Golden Compass",
+      "description": "Reveals nearby resource nodes",
+      "icon": "🧭",
+      "category": "tool",
+      "skill": "crafting",
+      "skillLevel": 80,
+      "craftTime": 15000,
+      "ingredients": [
+        { "resourceId": "gold_ore", "amount": 15 },
+        { "resourceId": "gemstones", "amount": 8 },
+        { "resourceId": "crystals", "amount": 10 }
+      ],
+      "output": { "resourceId": "golden_compass", "amount": 1 },
+      "xpReward": 120,
+      "effects": {
+        "revealNearbyNodes": true
+      }
+    },
+    {
+      "id": "elixir_of_mastery",
+      "name": "Elixir of Mastery",
+      "description": "Grants 500 XP to a selected skill",
+      "icon": "🍶",
+      "category": "consumable",
+      "skill": "foraging",
+      "skillLevel": 90,
+      "craftTime": 20000,
+      "ingredients": [
+        { "resourceId": "magical_herbs", "amount": 10 },
+        { "resourceId": "ancient_seeds", "amount": 5 },
+        { "resourceId": "gemstones", "amount": 3 },
+        { "resourceId": "herb_extract", "amount": 5 }
+      ],
+      "output": { "resourceId": "elixir_of_mastery", "amount": 1 },
+      "xpReward": 150
+    },
+    {
+      "id": "artisans_compass",
+      "name": "The Artisan's Compass",
+      "description": "Ultimate crafting achievement - Reveals all resource nodes permanently",
+      "icon": "🧭✨",
+      "category": "mastery",
+      "skill": "crafting",
+      "skillLevel": 100,
+      "craftTime": 30000,
+      "ingredients": [
+        { "resourceId": "berries", "amount": 50 },
+        { "resourceId": "copper_ore", "amount": 50 },
+        { "resourceId": "rope", "amount": 10 },
+        { "resourceId": "herbs", "amount": 30 },
+        { "resourceId": "iron_ore", "amount": 30 },
+        { "resourceId": "crystals", "amount": 15 },
+        { "resourceId": "rare_plants", "amount": 20 },
+        { "resourceId": "gold_ore", "amount": 20 },
+        { "resourceId": "gemstones", "amount": 10 },
+        { "resourceId": "crystal_pickaxe", "amount": 1 },
+        { "resourceId": "golden_compass", "amount": 1 }
+      ],
+      "output": { "resourceId": "artisans_compass", "amount": 1 },
+      "xpReward": 1000,
+      "effects": {
+        "revealAllNodes": true,
+        "fastTravel": true,
+        "title": "Master Artisan"
+      },
+      "requirements": {
+        "foragingLevel": 100,
+        "miningLevel": 100,
+        "craftingLevel": 100
+      }
+    }
+  ]
+}

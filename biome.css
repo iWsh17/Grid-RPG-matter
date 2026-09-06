@@ -1,0 +1,25 @@
+.cell.biome-meadow {
+  background: #273642;
+}
+
+.cell.biome-forest {
+  background: #1d3b2a;
+  border-color: rgba(123, 216, 155, .16);
+}
+
+.cell.biome-forest.resource {
+  background: #254d35;
+}
+
+.cell.biome-forest.player {
+  background: #315c42;
+}
+
+/* Barriers must override biome backgrounds so collision cells remain visible. */
+.cell.blocked,
+.cell.biome-meadow.blocked,
+.cell.biome-forest.blocked {
+  background: var(--blocked);
+  border: 1px solid #586b79;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .22);
+}

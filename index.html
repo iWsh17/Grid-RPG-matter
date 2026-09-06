@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid RPG Foundation</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="biome.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Foundation Build 019</p>
+        <h1>Grid RPG Prototype</h1>
+      </div>
+      <button id="reset-button" class="button button-danger" type="button">Reset</button>
+    </header>
+    <section class="layout">
+      <!-- Dev Panel - Left Side -->
+      <aside class="side-column dev-column">
+        <section class="panel"><p class="eyebrow">Player state</p><h2>Inspector</h2><dl id="state-inspector" class="state-list"></dl></section>
+        <section class="panel console-panel"><p class="eyebrow">Developer tools</p><h2>Console</h2><div id="console-output" class="console-output" aria-live="polite"></div><form id="console-form" class="console-form"><label for="console-input">Command</label><div class="console-input-row"><input id="console-input" autocomplete="off" placeholder="help" spellcheck="false"><button class="button" type="submit">Run</button></div></form><p class="help-text">Try: <code>help</code>, <code>state</code>, <code>teleport x y</code>, or <code>reset</code>.</p></section>
+      </aside>
+      
+      <!-- Game World - Center -->
+      <section class="panel world-panel" aria-labelledby="world-heading">
+        <div class="panel-heading">
+          <div><p class="eyebrow">World</p><h2 id="world-heading">Movement Test</h2></div>
+          <span id="status-badge" class="status-badge">Ready</span>
+        </div>
+        <div id="grid" class="grid" aria-label="Game grid" tabindex="0"></div>
+        <div id="action-bar" class="action-bar" style="display: none;">
+          <div class="action-bar-fill"></div>
+          <span class="action-bar-text">Gathering...</span>
+        </div>
+        <p class="help-text">Move with W A S D or the arrow keys. Blue is the player. Dark cells are blocked.</p>
+      </section>
+      
+      <!-- Shippable UI - Right Side -->
+      <aside class="side-column ui-column">
+        <section class="panel"><p class="eyebrow">Inventory</p><h2>Items</h2><div id="inventory-grid" class="inventory-grid"></div></section>
+        <section class="panel"><p class="eyebrow">Equipment</p><h2>Equipped</h2><div id="equipped-slot" class="equipped-slot"></div></section>
+        <section class="panel"><p class="eyebrow">Skills</p><h2>Professions</h2><div id="skills-list" class="skills-list"></div></section>
+      </aside>
+    </section>
+  </main>
+  <script type="module" src="Js/main.js"></script>
+  <script type="module" src="Js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "player_inventory": {
+    "id": "player_inventory",
+    "name": "Inventory",
+    "slots": 20,
+    "allowedCategories": ["all"]
+  },
+  "storage_chest": {
+    "id": "storage_chest",
+    "name": "Storage Chest",
+    "slots": 30,
+    "allowedCategories": ["material", "consumable", "tool", "weapon", "accessory", "building", "crafted", "mastery"]
+  }
+}

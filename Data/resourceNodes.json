@@ -1,0 +1,220 @@
+{
+  "resourceNodes": [
+    {
+      "id": "berry_bush",
+      "name": "Berry Bush",
+      "icon": "🫐",
+      "color": "#4CAF50",
+      "skill": "foraging",
+      "minLevel": 1,
+      "maxLevel": 33,
+      "respawnTime": 30000,
+      "lootTable": [
+        {
+          "resourceId": "berries",
+          "chance": 0.7,
+          "amountMin": 3,
+          "amountMax": 8
+        },
+        {
+          "resourceId": "sticks",
+          "chance": 0.3,
+          "amountMin": 1,
+          "amountMax": 3
+        }
+      ]
+    },
+    {
+      "id": "fiber_plant",
+      "name": "Fiber Plant",
+      "icon": "🌾",
+      "color": "#8BC34A",
+      "skill": "foraging",
+      "minLevel": 1,
+      "maxLevel": 33,
+      "respawnTime": 25000,
+      "lootTable": [
+        {
+          "resourceId": "plant_fibers",
+          "chance": 0.8,
+          "amountMin": 4,
+          "amountMax": 10
+        },
+        {
+          "resourceId": "seeds",
+          "chance": 0.2,
+          "amountMin": 2,
+          "amountMax": 5
+        }
+      ]
+    },
+    {
+      "id": "stone_node",
+      "name": "Stone Node",
+      "icon": "🪨",
+      "color": "#9E9E9E",
+      "skill": "mining",
+      "minLevel": 1,
+      "maxLevel": 33,
+      "respawnTime": 35000,
+      "lootTable": [
+        {
+          "resourceId": "stone",
+          "chance": 0.9,
+          "amountMin": 5,
+          "amountMax": 12
+        },
+        {
+          "resourceId": "coal",
+          "chance": 0.3,
+          "amountMin": 2,
+          "amountMax": 5
+        }
+      ]
+    },
+    {
+      "id": "copper_deposit",
+      "name": "Copper Deposit",
+      "icon": "⛏️",
+      "color": "#D84315",
+      "skill": "mining",
+      "minLevel": 1,
+      "maxLevel": 33,
+      "respawnTime": 40000,
+      "lootTable": [
+        {
+          "resourceId": "copper_ore",
+          "chance": 0.8,
+          "amountMin": 3,
+          "amountMax": 6
+        },
+        {
+          "resourceId": "stone",
+          "chance": 0.5,
+          "amountMin": 2,
+          "amountMax": 4
+        }
+      ]
+    },
+    {
+      "id": "herb_patch",
+      "name": "Herb Patch",
+      "icon": "🌿",
+      "color": "#66BB6A",
+      "skill": "foraging",
+      "minLevel": 34,
+      "maxLevel": 66,
+      "respawnTime": 45000,
+      "lootTable": [
+        {
+          "resourceId": "herbs",
+          "chance": 0.6,
+          "amountMin": 2,
+          "amountMax": 5
+        },
+        {
+          "resourceId": "flowers",
+          "chance": 0.4,
+          "amountMin": 1,
+          "amountMax": 3
+        },
+        {
+          "resourceId": "mushrooms",
+          "chance": 0.25,
+          "amountMin": 1,
+          "amountMax": 4
+        }
+      ]
+    },
+    {
+      "id": "iron_vein",
+      "name": "Iron Vein",
+      "icon": "⛏️",
+      "color": "#5D4037",
+      "skill": "mining",
+      "minLevel": 34,
+      "maxLevel": 66,
+      "respawnTime": 50000,
+      "lootTable": [
+        {
+          "resourceId": "iron_ore",
+          "chance": 0.7,
+          "amountMin": 2,
+          "amountMax": 5
+        },
+        {
+          "resourceId": "crystals",
+          "chance": 0.3,
+          "amountMin": 1,
+          "amountMax": 2
+        },
+        {
+          "resourceId": "silver_ore",
+          "chance": 0.2,
+          "amountMin": 1,
+          "amountMax": 3
+        }
+      ]
+    },
+    {
+      "id": "ancient_grove",
+      "name": "Ancient Grove",
+      "icon": "🌳",
+      "color": "#2E7D32",
+      "skill": "foraging",
+      "minLevel": 67,
+      "maxLevel": 100,
+      "respawnTime": 60000,
+      "lootTable": [
+        {
+          "resourceId": "rare_plants",
+          "chance": 0.5,
+          "amountMin": 1,
+          "amountMax": 3
+        },
+        {
+          "resourceId": "ancient_seeds",
+          "chance": 0.2,
+          "amountMin": 1,
+          "amountMax": 2
+        },
+        {
+          "resourceId": "magical_herbs",
+          "chance": 0.15,
+          "amountMin": 1,
+          "amountMax": 2
+        }
+      ]
+    },
+    {
+      "id": "gold_motherlode",
+      "name": "Gold Motherlode",
+      "icon": "💎",
+      "color": "#FFD700",
+      "skill": "mining",
+      "minLevel": 67,
+      "maxLevel": 100,
+      "respawnTime": 90000,
+      "lootTable": [
+        {
+          "resourceId": "gold_ore",
+          "chance": 0.6,
+          "amountMin": 2,
+          "amountMax": 4
+        },
+        {
+          "resourceId": "gemstones",
+          "chance": 0.25,
+          "amountMin": 1,
+          "amountMax": 2
+        },
+        {
+          "resourceId": "mythril",
+          "chance": 0.1,
+          "amountMin": 1,
+          "amountMax": 2
+        }
+      ]
+    }
+  ]
+}

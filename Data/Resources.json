@@ -1,0 +1,356 @@
+{
+  "resources": [
+    {
+      "id": "berries",
+      "name": "Berries",
+      "icon": "🫐",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 1
+    },
+    {
+  "id": "berry_potion",
+  "name": "Berry Potion",
+  "icon": "🍷",
+  "stackSize": 999,
+  "category": "consumable",
+  "tier": 1
+},
+{
+  "id": "bandage",
+  "name": "Bandage",
+  "icon": "🩹",
+  "stackSize": 999,
+  "category": "consumable",
+  "tier": 1
+},
+{
+  "id": "stone_wall",
+  "name": "Stone Wall",
+  "icon": "🧱",
+  "stackSize": 999,
+  "category": "building",
+  "tier": 1
+},
+{
+  "id": "rope",
+  "name": "Rope",
+  "icon": "🪢",
+  "stackSize": 999,
+  "category": "material",
+  "tier": 1
+},
+{
+  "id": "copper_pickaxe",
+  "name": "Copper Pickaxe",
+  "icon": "⛏️",
+  "stackSize": 1,
+  "category": "tool",
+  "tier": 1
+},
+{
+  "id": "iron_sword",
+  "name": "Iron Sword",
+  "icon": "🗡️",
+  "stackSize": 1,
+  "category": "weapon",
+  "tier": 2
+},
+{
+  "id": "herb_extract",
+  "name": "Herb Extract",
+  "icon": "🧪",
+  "stackSize": 999,
+  "category": "consumable",
+  "tier": 2
+},
+{
+  "id": "iron_pickaxe",
+  "name": "Iron Pickaxe",
+  "icon": "⛏️",
+  "stackSize": 1,
+  "category": "tool",
+  "tier": 2
+},
+{
+  "id": "crystal_amulet",
+  "name": "Crystal Amulet",
+  "icon": "📿",
+  "stackSize": 1,
+  "category": "accessory",
+  "tier": 2
+},
+{
+  "id": "crystal_pickaxe",
+  "name": "Crystal Pickaxe",
+  "icon": "⛏️",
+  "stackSize": 1,
+  "category": "tool",
+  "tier": 3
+},
+{
+  "id": "golden_compass",
+  "name": "Golden Compass",
+  "icon": "🧭",
+  "stackSize": 1,
+  "category": "tool",
+  "tier": 3
+},
+{
+  "id": "elixir_of_mastery",
+  "name": "Elixir of Mastery",
+  "icon": "🍶",
+  "stackSize": 999,
+  "category": "consumable",
+  "tier": 3
+},
+{
+  "id": "artisans_compass",
+  "name": "The Artisan's Compass",
+  "icon": "🧭✨",
+  "stackSize": 1,
+  "category": "mastery",
+  "tier": 3
+},
+    {
+      "id": "sticks",
+      "name": "Sticks",
+      "icon": "🪵",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 1
+    },
+    {
+      "id": "plant_fibers",
+      "name": "Plant Fibers",
+      "icon": "🌾",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 1
+    },
+    {
+      "id": "seeds",
+      "name": "Seeds",
+      "icon": "🌱",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 1
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "icon": "🪨",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 1
+    },
+    {
+      "id": "coal",
+      "name": "Coal",
+      "icon": "⚫",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 1
+    },
+    {
+      "id": "copper_ore",
+      "name": "Copper Ore",
+      "icon": "🟠",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 1
+    },
+    {
+      "id": "herbs",
+      "name": "Herbs",
+      "icon": "🌿",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 2
+    },
+    {
+      "id": "flowers",
+      "name": "Flowers",
+      "icon": "🌸",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 2
+    },
+    {
+      "id": "mushrooms",
+      "name": "Mushrooms",
+      "icon": "🍄",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 2
+    },
+    {
+      "id": "iron_ore",
+      "name": "Iron Ore",
+      "icon": "⬜",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 2
+    },
+    {
+      "id": "crystals",
+      "name": "Crystals",
+      "icon": "💎",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 2
+    },
+    {
+      "id": "silver_ore",
+      "name": "Silver Ore",
+      "icon": "⚪",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 2
+    },
+    {
+      "id": "rare_plants",
+      "name": "Rare Plants",
+      "icon": "🌺",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 3
+    },
+    {
+      "id": "ancient_seeds",
+      "name": "Ancient Seeds",
+      "icon": "✨",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 3
+    },
+    {
+      "id": "magical_herbs",
+      "name": "Magical Herbs",
+      "icon": "💫",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 3
+    },
+    {
+      "id": "gold_ore",
+      "name": "Gold Ore",
+      "icon": "🟡",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 3
+    },
+    {
+      "id": "gemstones",
+      "name": "Gemstones",
+      "icon": "💠",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 3
+    },
+    {
+      "id": "mythril",
+      "name": "Mythril",
+      "icon": "✨",
+      "stackSize": 999,
+      "category": "material",
+      "tier": 3
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "icon": "🪢",
+      "stackSize": 999,
+      "category": "crafted",
+      "tier": 1
+    },
+    {
+      "id": "bandage",
+      "name": "Bandage",
+      "icon": "🩹",
+      "stackSize": 999,
+      "category": "consumable",
+      "tier": 1
+    },
+    {
+      "id": "stone_wall",
+      "name": "Stone Wall",
+      "icon": "🧱",
+      "stackSize": 999,
+      "category": "building",
+      "tier": 1
+    },
+    {
+      "id": "copper_pickaxe",
+      "name": "Copper Pickaxe",
+      "icon": "⛏️",
+      "stackSize": 1,
+      "category": "tool",
+      "tier": 1
+    },
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "icon": "🗡️",
+      "stackSize": 1,
+      "category": "weapon",
+      "tier": 2
+    },
+    {
+      "id": "herb_extract",
+      "name": "Herb Extract",
+      "icon": "🧪",
+      "stackSize": 999,
+      "category": "consumable",
+      "tier": 2
+    },
+    {
+      "id": "iron_pickaxe",
+      "name": "Iron Pickaxe",
+      "icon": "⛏️",
+      "stackSize": 1,
+      "category": "tool",
+      "tier": 2
+    },
+    {
+      "id": "crystal_amulet",
+      "name": "Crystal Amulet",
+      "icon": "📿",
+      "stackSize": 1,
+      "category": "accessory",
+      "tier": 2
+    },
+    {
+      "id": "crystal_pickaxe",
+      "name": "Crystal Pickaxe",
+      "icon": "⛏️",
+      "stackSize": 1,
+      "category": "tool",
+      "tier": 3
+    },
+    {
+      "id": "golden_compass",
+      "name": "Golden Compass",
+      "icon": "🧭",
+      "stackSize": 1,
+      "category": "tool",
+      "tier": 3
+    },
+    {
+      "id": "elixir_of_mastery",
+      "name": "Elixir of Mastery",
+      "icon": "🍶",
+      "stackSize": 999,
+      "category": "consumable",
+      "tier": 3
+    },
+    {
+      "id": "artisans_compass",
+      "name": "The Artisan's Compass",
+      "icon": "🧭✨",
+      "stackSize": 1,
+      "category": "mastery",
+      "tier": 3
+    }
+  ]
+}
